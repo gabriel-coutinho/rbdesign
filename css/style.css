@@ -1,0 +1,83 @@
+@font-face {
+    font-family: Axis;
+    src: url("fonts/Axis Extrabold");
+}
+
+#main-content {
+    height: 100vh;
+    background-image: url("../city.png");
+    background-position-x: center;
+    background-size: cover;
+    text-align: center;
+}
+
+#main-button-group {
+    position: relative;
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    top: 75vh;
+}
+
+.main-menu-button {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+    background-blend-mode: normal;
+    height: 25vh;
+}
+
+.main-menu-button:hover {
+    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+}
+
+.big-menu-text {
+    padding-top: 5vh;
+    font-size: 3vw;
+}
+
+.main-menu-button:hover .big-menu-text {
+    font-size: 4vw;
+    color: rgb(249, 241, 160, 1);
+}
+
+.main-menu-button * {
+    color: rgb(249, 241, 160, 0.5);
+    font-weight: 900;
+}
+
+.small-menu-text {
+    transform: rotate(90deg);
+    padding-left: 0vh;
+    color: rgb(249, 241, 160, 1);
+    font-size: 3.5vh
+}
+
+
+/* SALVANDO, TALVEZ PRECISE 
+
+#main-nav {
+    position: sticky;
+    background-color: #DD6628;
+}
+
+.nav-text {
+    color: #F4F294 !important;
+}
+
+.dropdown-menu li a.nav-text:hover,
+li.active a.nav-text {
+    font-weight: bold;
+    background-color: #DD6628
+}
+
+#redirecionador>.dropdown>a {
+    border-color: #DD6628;
+    background-color: #DD6628;
+}
+
+#redirecionador>.dropdown.open>a {
+    border-color: #ad4f1f;
+    background-color: #ad4f1f;
+}
+
+.dropdown-menu {
+    background-color: #ad4f1f !important;
+}*/
