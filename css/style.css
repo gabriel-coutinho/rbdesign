@@ -19,13 +19,13 @@
 }
 
 .main-menu-button {
-    background-image: linear-gradient(to top, rgba(0, 0, 0, 1), rgba(255, 255, 255, 0));
+    background: radial-gradient(at center bottom, rgba(0, 0, 0, 1), rgba(50, 50, 50, 0.3), rgba(255, 255, 255, 0) 70%);
     background-blend-mode: normal;
     height: 25vh;
 }
 
 .main-menu-button:hover {
-    background-image: linear-gradient(to top, rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0));
+    background-image: radial-gradient(at center bottom, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 70%);
 }
 
 .big-menu-text {
