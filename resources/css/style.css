@@ -1,6 +1,6 @@
 @font-face {
     font-family: Axis;
-    src: url("resources/fonts/Axis Extrabold");
+    src: url("../fonts/Axis Extrabold.otf");
 }
 
 #main-content {
@@ -35,49 +35,16 @@
 
 .main-menu-button:hover .big-menu-text {
     font-size: 4vw;
-    color: rgb(249, 241, 160);
 }
 
 .main-menu-button * {
     color: rgb(249, 241, 160);
+    font-family: Axis;
     font-weight: 900;
 }
 
 .small-menu-text {
     transform: rotate(90deg);
     padding-left: 0vh;
-    color: rgb(249, 241, 160);
     font-size: 3.5vh
 }
-
-
-/* SALVANDO, TALVEZ PRECISE 
-
-#main-nav {
-    position: sticky;
-    background-color: #DD6628;
-}
-
-.nav-text {
-    color: #F4F294 !important;
-}
-
-.dropdown-menu li a.nav-text:hover,
-li.active a.nav-text {
-    font-weight: bold;
-    background-color: #DD6628
-}
-
-#redirecionador>.dropdown>a {
-    border-color: #DD6628;
-    background-color: #DD6628;
-}
-
-#redirecionador>.dropdown.open>a {
-    border-color: #ad4f1f;
-    background-color: #ad4f1f;
-}
-
-.dropdown-menu {
-    background-color: #ad4f1f !important;
-}*/
