@@ -3,48 +3,55 @@
     src: url("../fonts/Axis Extrabold.otf");
 }
 
-#main-content {
+main {
     height: 100vh;
     background-image: url("images/city.png");
-    background-position-x: center;
     background-size: cover;
+    background-position-x: center;
     text-align: center;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-#main-button-group {
+table {
+    width: 100%;
     position: relative;
-    margin-right: 0px !important;
-    margin-left: 0px !important;
     top: 75vh;
 }
 
-.main-menu-button {
+td {
     background: radial-gradient(at center bottom, rgba(0, 0, 0, 1), rgba(50, 50, 50, 0.3), rgba(255, 255, 255, 0) 70%);
     background-blend-mode: normal;
     height: 25vh;
+    width: 33%
 }
 
-.main-menu-button:hover {
-    background-image: radial-gradient(at center bottom, rgba(255, 255, 255, 0.5),rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 70%);
+td:hover {
+    cursor: pointer;
+    background-image: radial-gradient(at center bottom, rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0.3), rgba(255, 255, 255, 0) 70%);
 }
 
-.big-menu-text {
+td h1 {
     padding-top: 5vh;
     font-size: 3vw;
 }
 
-.main-menu-button:hover .big-menu-text {
+td:hover h1 {
     font-size: 4vw;
 }
 
-.main-menu-button * {
-    color: rgb(249, 241, 160);
+td * {
+    color: #ede3ee;
     font-family: Axis;
     font-weight: 900;
 }
 
-.small-menu-text {
+h2 {
     transform: rotate(90deg);
-    padding-left: 0vh;
+    display: inline-flex;
     font-size: 3.5vh
 }
